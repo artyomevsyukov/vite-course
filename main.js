@@ -1,3 +1,4 @@
+import "./src/asserts/global.scss";
 // import "./src/02.js"; // import npm module
 // import "./src/03.js"; // import css
 // import "./src/04.js"; // import css module
