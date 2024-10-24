@@ -1,10 +1,10 @@
 import "./asserts/03.css";
-import style from "./asserts/03-1.css?inline";
+import styles from "./asserts/03-1.css?inline"; // Не надо применять стилои автаматически на странице, а вернуть их в качестве стандартного экспорта из этого модуля. Вернется строка стилей в переменную styles
 
-console.log(style);
+console.log(styles);
 
 const stleEl = document.createElement("style");
 
-stleEl.innerText = style;
+stleEl.innerText = styles;
 
 document.querySelector("head").append(stleEl);
