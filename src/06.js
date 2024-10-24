@@ -1,5 +1,5 @@
-// import "./asserts/06.scss";
-import styles from "./asserts/06.module.scss";
+// import "./assets/06.scss";
+import styles from "./assets/06.module.scss";
 console.log(styles);
 
 document.body.className = `${styles.wrapper} ${styles.heading} ${styles.title}`;

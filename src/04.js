@@ -1,6 +1,6 @@
-import "./asserts/03.css";
-// import stylesA from "./asserts/04a.module.css";
-// import stylesB from "./asserts/04b.module.css";
+import "./assets/03.css";
+// import stylesA from "./assets/04a.module.css";
+// import stylesB from "./assets/04b.module.css";
 // console.log(stylesA);
 // console.log(stylesB);
 // document.querySelector(".heading").classList.add(stylesA.heading);
@@ -13,8 +13,8 @@ import "./asserts/03.css";
 //     ".heading"
 // ).className = `${stylesA.heading} ${HeadingColor}`;
 
-import { heading as HeadingColor } from "./asserts/04a.module.css";
-import { heading as HeadingFontSize } from "./asserts/04b.module.css";
+import { heading as HeadingColor } from "./assets/04a.module.css";
+import { heading as HeadingFontSize } from "./assets/04b.module.css";
 
 document.querySelector(
     ".heading"

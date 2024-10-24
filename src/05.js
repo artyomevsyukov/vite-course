@@ -1,1 +1,1 @@
-import "./asserts/05.css";
+import "./assets/05.css";
