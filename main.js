@@ -7,4 +7,4 @@
 // import "./src/05.js"; //tailwindcss
 // import "./src/06.js"; // SCSS
 // import "./src/07.js"; // JSON
-import "./src/08.js"; // JSON
+import "./src/08.js"; // img svg
