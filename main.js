@@ -7,4 +7,15 @@
 // import "./src/05.js"; //tailwindcss
 // import "./src/06.js"; // SCSS
 // import "./src/07.js"; // JSON
+import { data } from "autoprefixer";
 import "./src/08.js"; // img svg
+const modules = import.meta.glob("./src/10/*.js");
+console.log(modules);
+
+document.addEventListener("click", () => {
+    Object.values(modules).forEach((module) => {
+        module().then((data) => {
+            console.log(data);
+        });
+    });
+});
